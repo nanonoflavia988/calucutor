@@ -1,0 +1,37 @@
+ body{
+     padding-right: 300px;
+ }
+ .calculator{
+     width: 50%;
+     border: 5px red solid;
+ }
+ .calcrow{
+     display: flex;
+     background-color: black;
+     justify-content: space-between;
+     border-bottom: 0.5% black solid;
+ }
+ section{
+     background-color: black;
+     color: white;
+     text-align: right;
+     font-size: 30px;
+     padding: 20px 30px; 
+ }
+ .calcbutton{
+     background-color: #d8d9db;
+     font-size: 20px;
+     flex-basis: 24.8%
+ }
+ .twice{
+     flex-basis: 49.9%;
+ }
+ .tripple{
+    flex-basis: 75%;
+ }
+ .double{
+     background-color: orangered; 
+ }
+ .third:hover{
+     background-color: red; 
+ }
